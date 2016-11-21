@@ -1,0 +1,109 @@
+% !TeX spellcheck = en_US
+%%%% ijcai17.tex
+
+%\typeout{IJCAI-17 Instructions for Authors}
+
+% These are the instructions for authors for IJCAI-17.
+% They are the same as the ones for IJCAI-11 with superficical wording
+%   changes only.
+
+\documentclass{article}
+% The file ijcai17.sty is the style file for IJCAI-17 (same as ijcai07.sty).
+\usepackage{ijcai17}
+
+% Use the postscript times font!
+\usepackage{times}
+
+% the following package is optional:
+%\usepackage{latexsym} 
+
+% Following comment is from ijcai97-submit.tex:
+% The preparation of these files was supported by Schlumberger Palo Alto
+% Research, AT\&T Bell Laboratories, and Morgan Kaufmann Publishers.
+% Shirley Jowell, of Morgan Kaufmann Publishers, and Peter F.
+% Patel-Schneider, of AT\&T Bell Laboratories collaborated on their
+% preparation.
+
+% These instructions can be modified and used in other conferences as long
+% as credit to the authors and supporting agencies is retained, this notice
+% is not changed, and further modification or reuse is not restricted.
+% Neither Shirley Jowell nor Peter F. Patel-Schneider can be listed as
+% contacts for providing assistance without their prior permission.
+
+% To use for other conferences, change references to files and the
+% conference appropriate and use other authors, contacts, publishers, and
+% organizations.
+% Also change the deadline and address for returning papers and the length and
+% page charge instructions.
+% Put where the files are available in the appropriate places.
+
+\title{Discovering long range pattern interaction by reshuffling filter orders in deep convolutional neural network \thanks{These match the formatting instructions of IJCAI-07. The support of IJCAI, Inc. is acknowledged.}}
+
+
+\author{Pengfei Liu, Shuai Li,Kow-Sak Leung\\ 
+Department of Computer Science and Engineering, the Chinese University of Hong Kong, Hong Kong\\
+\{pfliu,shuaili,ksleung\}@cse.cuhk.edu.hk}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Discovering the long range interactions among patterns have been proved to be important in many machine learning problems and attracts many attentions in academic societies. In recent years, deep neural network(DNN), especially deep convolutional neural network(CNN), has been proved to be very effective in discovering the patterns inside dataset automatically. However, CNN can only find the patterns in local areas. In this paper, we enables the CNN to discovering the long range patterns by rearrange the orders of t filters in CNN. Experimental results show that, with other settings of CNN unchanged, this single technique can significantly enhance the accuracy of CNN in many famous examples, which proved the effectiveness of our algorithm.     
+\end{abstract}
+
+\section{Introduction}
+
+\begin{itemize}
+	\item the importance of long range interaction
+	\item the development of DNN CNN
+	\item the limitation of CNN
+	\item motivation
+	\item key idea
+	\item arrangement of this paper
+\end{itemize}
+
+\section{Relate Works}
+
+\LaTeX{} and Word style files that implement these instructions
+can be retrieved electronically. (See Appendix~\ref{stylefiles} for
+instructions on how to obtain these files.)
+
+
+
+\begin{quote} 
+\mbox{\tt $\backslash$usepackage\{times\}}
+\end{quote}
+in the preamble.\footnote{You may want also to use the package {\tt
+latexsym}, which defines all symbols known from the old \LaTeX{}
+version.}
+
+
+\section{Permutation by Prime length}
+
+\section{Experiments and results}
+
+\subsection{TensorFlow tutorial}
+\begin{itemize}
+	\item permute on conv layer
+	\item permute on pooling layer
+	\item permute on which layer
+\end{itemize}
+
+\subsection{large image example?}
+
+\subsection{some biological example?}
+
+\section*{Acknowledgments}
+
+abc
+
+
+
+
+%% The file named.bst is a bibliography style file for BibTeX 0.99c
+\bibliographystyle{named}
+\bibliography{ijcai17}
+
+\end{document}
+
